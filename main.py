@@ -112,10 +112,10 @@ def get_contents(path_to_file):
 
 #print(file_contents)
 book_dir = "books"
-books = {"Frankenstein": join(book_dir, "frankenstein.txt"), "Moby Dick": join(book_dir, "moby-dick.txt"), "War & Peace (EN)": join(book_dir, "war-and-peace.txt"), "Siddartha (DE)": join(book_dir, "siddartha_de.txt"), "Siddartha (EN)": join(book_dir, "siddartha_en.txt")}
+books = {"Frankenstein": join(book_dir, "frankenstein.txt"), "Moby Dick": join(book_dir, "moby-dick.txt"), "War & Peace (EN)": join(book_dir, "war-and-peace.txt"), "Siddartha (DE)": join(book_dir, "siddartha_de.txt"), "Siddartha (EN)": join(book_dir, "siddartha_en.txt"), "La Disparition (FR)": join(book_dir, "la-disparition.txt"), "Madame Bovary (FR)" : join(book_dir, "madame-bovary-fr.txt")}
 #plot_zipfs_law(books)
 
-books = {}
+#books = {}
 for i in range(10):
     n = np.random.poisson(50000)
     text = gen_random_text(n)
